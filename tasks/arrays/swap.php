@@ -14,7 +14,7 @@ print_r($result); // => ['john', 'smith', 'karl']
 */
 
 function swap($array, $index) {
-    if ($index === 0 || $index === count($array) - 1) {
+    if ($index <= 0 || $index >= count($array) - 1) {
         return $array;
     }
     $buffer = $array[$index - 1];
