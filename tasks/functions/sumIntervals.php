@@ -1,6 +1,6 @@
 <?php
 
-
+/*
 print_r(sumIntervals([[5, 5]])); // 0
 echo ' ';
 print_r(sumIntervals([[-100, 0]])); // 100
@@ -29,7 +29,7 @@ print_r(sumIntervals([
     [16, 100],
     [5, 11]
 ])); // 110
-
+*/
 
 function sumIntervals(array $array) :int
 {
