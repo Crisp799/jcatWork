@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51a48b47-883c-412e-87a7-d2279df36c9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../task2/getSameParity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task2/lengthOfLastWord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task2/sumIntervals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addPrefix.php" beforeDir="false" afterPath="$PROJECT_DIR$/addPrefix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubbleSort.php" beforeDir="false" afterPath="$PROJECT_DIR$/bubbleSort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get.php" beforeDir="false" afterPath="$PROJECT_DIR$/get.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getChunked.php" beforeDir="false" afterPath="$PROJECT_DIR$/getChunked.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getIntersectionOfSortedArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/getIntersectionOfSortedArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getMirrorMatrix.php" beforeDir="false" afterPath="$PROJECT_DIR$/getMirrorMatrix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getTotalAmount.php" beforeDir="false" afterPath="$PROJECT_DIR$/getTotalAmount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isContinuousSequence.php" beforeDir="false" afterPath="$PROJECT_DIR$/isContinuousSequence.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swap.php" beforeDir="false" afterPath="$PROJECT_DIR$/swap.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26gt1fituEpJh8rg5cpgRo1bd9g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51a48b47-883c-412e-87a7-d2279df36c9b" name="Changes" comment="" />
+      <created>1647856843862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647856843862</updated>
+      <workItem from="1647856844898" duration="229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

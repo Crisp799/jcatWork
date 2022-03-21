@@ -5,7 +5,8 @@ print_r(bubbleSort([])); // []
 print_r(bubbleSort([3, 10, 4, 3])); // [3, 3, 4, 10]
 */
 
-function bubbleSort($array) {
+function bubbleSort(array $array) :array
+{
     $arrayLength = count($array);
     for ($i = 0; $i < $arrayLength; ++$i) {
         for ($j = $arrayLength -1; $j > $i; --$j) {

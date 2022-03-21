@@ -10,6 +10,7 @@ var_dump(get($cities, 4)); // null
 var_dump(get($cities, 4, 'default'));// null
 */
 
-function get($array , $index, $defaultValue = false) {
+function get(array $array,int $index,?string $defaultValue = null) :?string
+{
     return count($array) <= $index ? $defaultValue : $array[$index];
 }

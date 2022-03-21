@@ -11,7 +11,8 @@ $money3 = ['eur 10', 'rub 50', 'eur 5', 'rub 10', 'rub 10', 'eur 100', 'rub 200'
 var_dump(getTotalAmount($money3, 'rub')); // 270
 */
 
-function getTotalAmount($array, $cashName) {
+function getTotalAmount(array $array, string $cashName) :int
+{
     $resultSumm = 0;
     foreach ($array as $bill) {
         if (strpos($bill,$cashName) !== false) {

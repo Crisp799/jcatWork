@@ -8,7 +8,8 @@ print_r(getIntersectionOfSortedArray([10, 11, 24], [-2, 3, 4])); // []
 print_r(getIntersectionOfSortedArray([], [2])); // []
 */
 
-function getIntersectionOfSortedArray($firstArray, $secondArray) {
+function getIntersectionOfSortedArray(array $firstArray, array $secondArray) :array
+{
     $resultArray =[];
     for ($i = 0, $j = 0; $i < count($firstArray) && $j < count($secondArray); ) {
         if ($firstArray[$i] === $secondArray[$j]) {

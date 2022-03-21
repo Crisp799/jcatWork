@@ -9,7 +9,8 @@ print_r(getMirrorMatrix([
 ]));
 */
 
-function getMirrorMatrix($array) {
+function getMirrorMatrix(array $array) :array
+{
     $length = count($array);
     for ($i = 0 ; $i < $length; ++$i) {
         for ($j = 0; $j < (int)$length/2; ++$j) {

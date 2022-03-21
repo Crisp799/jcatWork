@@ -7,7 +7,8 @@ var_dump(isContinuousSequence([1, 2, 2, 3]));         // false
 var_dump(isContinuousSequence([]));                   // false
 */
 
-function isContinuousSequence($array) {
+function isContinuousSequence(array $array) :bool
+{
     if (empty($array)) {
         return false;
     }

@@ -13,7 +13,8 @@ $result = swap($names, 0);
 print_r($result); // => ['john', 'smith', 'karl']
 */
 
-function swap($array, $index) {
+function swap(array $array, int $index) :array
+{
     if ($index <= 0 || $index >= count($array) - 1) {
         return $array;
     }
