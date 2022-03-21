@@ -1,6 +1,6 @@
 <?php
 
-
+/*
 echo ipToInt('128.32.10.1'); // 2149583361
 echo ' ';
 echo ipToInt('0.0.0.0'); // 0
@@ -12,6 +12,7 @@ echo ' ';
 echo intToIp(0); // '0.0.0.0'
 echo ' ';
 echo intToIp(4294967295); // '255.255.255.255'
+*/
 
 function ipToInt(string $ip) :int
 {
