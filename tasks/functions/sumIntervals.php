@@ -36,7 +36,7 @@ function sumIntervals(array $array) :int
     $resultSumm = 0;
     foreach ($array as $key => &$value) {
         foreach ($array as $comparableKey => $comparableValue) {
-            if ($key !== $comparableKey || abs($value[1] - $value[0]) === 0 || abs($comparableValue[1] - $comparableValue[0]) === 0) {
+            if ($key !== $comparableKey) {
                 if ($value[0] > $comparableValue[0] && $value[0] < $comparableValue[1] && $value[1] > $comparableValue[1]) {
                     $value[0] = $comparableValue[1];
                 } else if ($value[0] < $comparableValue[0] && $value[1] > $comparableValue[0] && $value[1] < $comparableValue[1]) {
