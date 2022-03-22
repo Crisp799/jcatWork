@@ -42,8 +42,8 @@ function sumIntervals(array $array) :int
                 } else if ($value[0] < $comparableValue[0] && $value[1] > $comparableValue[0] && $value[1] < $comparableValue[1]) {
                     $value[1] = $comparableValue[0];
                 } else if ($value[0] >= $comparableValue[0] && $value[1] <= $comparableValue[1]) {
-                    $value[0] = 0;
-                    $value[1] = 0;
+                    $value[0] = $value[1];
+                    break;
                 }
             }
         }
